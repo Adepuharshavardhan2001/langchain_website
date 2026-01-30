@@ -3,6 +3,12 @@
 This project is an AI-powered **website code generator** built using **Streamlit**, **LangChain**, and **Google Gemini**.  
 Users can describe a website idea, and the app automatically generates **HTML, CSS, and JavaScript** files.
 
+Project Overview
+
+Website Automation using Gemini AI is a Streamlit-based application that automates the creation of frontend website code using Generative AI. The user provides a natural language description of a website, and the system intelligently generates structured **HTML**, **CSS**, and **JavaScript** files.
+
+The project leverages **Google Gemini** through **LangChain** to interpret user requirements and produce clean, reusable frontend code. This automation reduces manual coding effort and demonstrates practical usage of Large Language Models (LLMs) in real-world web development workflows.
+
 ---
 
 ##  Features
