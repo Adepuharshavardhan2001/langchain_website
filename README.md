@@ -33,15 +33,29 @@ The project leverages **Google Gemini** through **LangChain** to interpret user 
 
 ---
 
-##  Project Structure
+## 🧠 How It Works
 
-├── app.py
-├── index.html
-├── style.css
-├── script.js
-├── .env
-├── requirements.txt
-└── README.md
+1. The user enters a natural language description of the desired website layout and features in the Streamlit interface.
+
+2. When the **Generate** button is clicked, the application constructs a structured prompt consisting of:
+   - A **system message** defining the AI’s role as a frontend web developer
+   - A **user message** containing the website description
+
+3. This prompt is sent to **Google Gemini** using **LangChain’s ChatGoogleGenerativeAI** interface.
+
+4. The Gemini model processes the request and generates frontend code in a predefined format containing:
+   - HTML
+   - CSS
+   - JavaScript
+
+5. The application parses the AI response and separates the code into individual files:
+   - `index.html`
+   - `style.css`
+   - `script.js`
+
+6. The generated code is automatically saved to the local project directory and displayed in the Streamlit app for review.
+
+This workflow demonstrates how Generative AI can be integrated into real-world applications to automate repetitive development tasks.
 
 
 ---
