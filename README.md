@@ -33,7 +33,7 @@ The project leverages **Google Gemini** through **LangChain** to interpret user 
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. The user enters a natural language description of the desired website layout and features in the Streamlit interface.
 
